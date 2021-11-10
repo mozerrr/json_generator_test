@@ -4,7 +4,7 @@ import 'package:json_generator_test/models/movie/full_movie.dart';
 part 'custom_products_states.freezed.dart';
 
 @freezed
-abstract class CustomProductsEvent with _$CustomProductsEvent {
+class CustomProductsEvent with _$CustomProductsEvent {
   const CustomProductsEvent._();
 
   const factory CustomProductsEvent.fetchProducts() =
@@ -12,7 +12,7 @@ abstract class CustomProductsEvent with _$CustomProductsEvent {
 }
 
 @freezed
-abstract class CustomProductsState with _$CustomProductsState {
+class CustomProductsState with _$CustomProductsState {
   const CustomProductsState._();
 
   const factory CustomProductsState.initial() =

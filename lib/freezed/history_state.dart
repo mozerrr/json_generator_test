@@ -1,9 +1,9 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'history_states.freezed.dart';
+part 'history_state.freezed.dart';
 
 @freezed
-abstract class HistoryState with _$HistoryState {
+class HistoryState with _$HistoryState {
   const HistoryState._();
 
   const factory HistoryState.initial() = HistoryInitialState;
@@ -16,6 +16,6 @@ abstract class HistoryState with _$HistoryState {
   HistoryFailureState;
 
   const factory HistoryState.data(
-      {Map<DateTime, Iterable<String>>
+      {required Map<DateTime, Iterable<String>>
       groupedOperations}) = HistoryDataState;
 }
