@@ -9,4 +9,5 @@ class Gravatar {
       );
 
   final String hash;
+  factory Gravatar.fromJson(Map<String, dynamic> json) => _$GravatarFromJson(json);
 }

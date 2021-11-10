@@ -35,4 +35,5 @@ class Actor {
   final bool adult;
   final String imdbId;
   final dynamic homepage;
+  factory Actor.fromJson(Map<String, dynamic> json) => _$ActorFromJson(json);
 }

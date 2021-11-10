@@ -13,4 +13,5 @@ class Season {
   final DateTime airDate;
   final String posterPath;
   final int seasonNumber;
+  factory Season.fromJson(Map<String, dynamic> json) => _$SeasonFromJson(json);
 }

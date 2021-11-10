@@ -10,4 +10,5 @@ class Avatar {
       );
 
   final Gravatar gravatar;
+  factory Avatar.fromJson(Map<String, dynamic> json) => _$AvatarFromJson(json);
 }

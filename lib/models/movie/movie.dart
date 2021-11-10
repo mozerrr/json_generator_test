@@ -37,4 +37,5 @@ class Movie {
   final int voteCount;
   final bool video;
   final double voteAverage;
+  factory Movie.fromJson(Map<String, dynamic> json) => _$MovieFromJson(json);
 }

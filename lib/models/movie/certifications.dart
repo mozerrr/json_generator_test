@@ -38,4 +38,5 @@ class Certifications {
   final List<Certification> es;
   final List<Certification> ph;
   final List<Certification> pt;
+  factory Certifications.fromJson(Map<String, dynamic> json) => _$CertificationsFromJson(json);
 }

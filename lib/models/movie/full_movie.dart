@@ -61,4 +61,5 @@ class FullMovie {
   final bool video;
   final double voteAverage;
   final int voteCount;
+  factory FullMovie.fromJson(Map<String, dynamic> json) => _$FullMovieFromJson(json);
 }

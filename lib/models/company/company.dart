@@ -23,4 +23,5 @@ class Company {
   final String name;
   final String originCountry;
   final dynamic parentCompany;
+  factory Company.fromJson(Map<String, dynamic> json) => _$CompanyFromJson(json);
 }

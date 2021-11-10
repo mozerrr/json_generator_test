@@ -15,4 +15,5 @@ class ProductionCompany {
   final String logoPath;
   final String name;
   final String originCountry;
+  factory ProductionCompany.fromJson(Map<String, dynamic> json) => _$ProductionCompanyFromJson(json);
 }

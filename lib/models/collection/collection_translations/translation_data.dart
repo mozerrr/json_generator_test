@@ -13,4 +13,5 @@ class TranslationData {
   final String title;
   final String overview;
   final String homepage;
+  factory TranslationData.fromJson(Map<String, dynamic> json) => _$TranslationDataFromJson(json);
 }

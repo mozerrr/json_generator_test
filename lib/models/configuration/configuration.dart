@@ -12,5 +12,6 @@ class Configuration {
 
   final ConfigurationImages images;
   final List<String> changeKeys;
+  factory Configuration.fromJson(Map<String, dynamic> json) => _$ConfigurationFromJson(json);
 }
 

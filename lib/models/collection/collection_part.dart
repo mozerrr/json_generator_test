@@ -35,4 +35,5 @@ class CollectionPart {
   final bool video;
   final double voteAverage;
   final int voteCount;
+  factory CollectionPart.fromJson(Map<String, dynamic> json) => _$CollectionPartFromJson(json);
 }

@@ -21,4 +21,5 @@ class Backdrop {
   final double voteAverage;
   final int voteCount;
   final int width;
+  factory Backdrop.fromJson(Map<String, dynamic> json) => _$BackdropFromJson(json);
 }

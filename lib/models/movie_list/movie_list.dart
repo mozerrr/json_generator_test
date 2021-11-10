@@ -26,4 +26,5 @@ class MovieList {
   final String iso6391;
   final String name;
   final String posterPath;
+  factory MovieList.fromJson(Map<String, dynamic> json) => _$MovieListFromJson(json);
 }

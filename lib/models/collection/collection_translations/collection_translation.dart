@@ -18,4 +18,5 @@ class Translation {
   final String name;
   final String englishName;
   final TranslationData data;
+  factory Translation.fromJson(Map<String, dynamic> json) => _$TranslationFromJson(json);
 }

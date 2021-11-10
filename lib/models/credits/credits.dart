@@ -23,4 +23,5 @@ class Credits {
   final String mediaType;
   final String id;
   final Person person;
+  factory Credits.fromJson(Map<String, dynamic> json) => _$CreditsFromJson(json);
 }

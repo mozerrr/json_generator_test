@@ -11,4 +11,5 @@ class Person {
 
   final String name;
   final int id;
+  factory Person.fromJson(Map<String, dynamic> json) => _$PersonFromJson(json);
 }

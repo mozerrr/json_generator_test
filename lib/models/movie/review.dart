@@ -22,4 +22,5 @@ class Review {
   final String id;
   final DateTime updatedAt;
   final String url;
+  factory Review.fromJson(Map<String, dynamic> json) => _$ReviewFromJson(json);
 }

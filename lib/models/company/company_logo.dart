@@ -23,4 +23,5 @@ class CompanyLogo {
   final int voteAverage;
   final int voteCount;
   final int width;
+  factory CompanyLogo.fromJson(Map<String, dynamic> json) => _$CompanyLogoFromJson(json);
 }

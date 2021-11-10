@@ -12,4 +12,5 @@ class MovieChange {
 
   final String key;
   final List<Change> items;
+  factory MovieChange.fromJson(Map<String, dynamic> json) => _$MovieChangeFromJson(json);
 }

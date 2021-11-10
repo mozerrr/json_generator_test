@@ -12,4 +12,5 @@ class ReleaseDate {
 
   final String iso31661;
   final List<ReleaseDateElement> releaseDates;
+  factory ReleaseDate.fromJson(Map<String, dynamic> json) => _$ReleaseDateFromJson(json);
 }

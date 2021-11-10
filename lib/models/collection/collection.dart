@@ -20,4 +20,5 @@ class Collection {
   final dynamic posterPath;
   final String backdropPath;
   final List<CollectionPart> parts;
+  factory Collection.fromJson(Map<String, dynamic> json) => _$CollectionFromJson(json);
 }

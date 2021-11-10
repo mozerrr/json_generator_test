@@ -21,4 +21,5 @@ class ConfigurationImages {
   final List<String> posterSizes;
   final List<String> profileSizes;
   final List<String> stillSizes;
+  factory ConfigurationImages.fromJson(Map<String, dynamic> json) => _$ConfigurationImagesFromJson(json);
 }

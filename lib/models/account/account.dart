@@ -22,4 +22,5 @@ class Account {
   final String name;
   final bool includeAdult;
   final String username;
+  factory Account.fromJson(Map<String, dynamic> json) => _$AccountFromJson(json);
 }

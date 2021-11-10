@@ -11,4 +11,5 @@ class SpokenLanguage {
 
   final String iso6391;
   final String name;
+  factory SpokenLanguage.fromJson(Map<String, dynamic> json) => _$SpokenLanguageFromJson(json);
 }

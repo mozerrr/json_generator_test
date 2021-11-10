@@ -12,4 +12,5 @@ class CollectionImages {
 
   final int id;
   final List<Translation> translations;
+  factory CollectionImages.fromJson(Map<String, dynamic> json) => _$CollectionImagesFromJson(json);
 }

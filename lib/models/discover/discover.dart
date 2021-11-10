@@ -16,4 +16,5 @@ class Discover {
   final List<Movie> results;
   final int totalResults;
   final int totalPages;
+  factory Discover.fromJson(Map<String, dynamic> json) => _$DiscoverFromJson(json);
 }

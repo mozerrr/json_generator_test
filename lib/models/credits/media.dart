@@ -20,4 +20,5 @@ class Media {
   final String character;
   final List<dynamic> episodes;
   final List<Season> seasons;
+  factory Media.fromJson(Map<String, dynamic> json) => _$MediaFromJson(json);
 }

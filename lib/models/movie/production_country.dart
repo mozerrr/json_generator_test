@@ -11,4 +11,5 @@ class ProductionCountry {
 
   final String iso31661;
   final String name;
+  factory ProductionCountry.fromJson(Map<String, dynamic> json) => _$ProductionCountryFromJson(json);
 }

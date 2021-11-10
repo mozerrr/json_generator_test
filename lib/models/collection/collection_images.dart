@@ -14,4 +14,5 @@ class CollectionImages {
   final int id;
   final List<Backdrop> backdrops;
   final List<Backdrop> posters;
+  factory CollectionImages.fromJson(Map<String, dynamic> json) => _$CollectionImagesFromJson(json);
 }

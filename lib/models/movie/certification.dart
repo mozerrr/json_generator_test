@@ -13,4 +13,5 @@ class Certification {
   final String certification;
   final String meaning;
   final int order;
+  factory Certification.fromJson(Map<String, dynamic> json) => _$CertificationFromJson(json);
 }

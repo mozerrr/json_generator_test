@@ -19,4 +19,5 @@ class Change {
   final String iso6391;
   final String value;
   final String originalValue;
+  factory Change.fromJson(Map<String, dynamic> json) => _$ChangeFromJson(json);
 }

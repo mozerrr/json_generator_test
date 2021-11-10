@@ -12,4 +12,5 @@ class CompanyImage {
 
   final int id;
   final List<CompanyLogo> logos;
+  factory CompanyImage.fromJson(Map<String, dynamic> json) => _$CompanyImageFromJson(json);
 }

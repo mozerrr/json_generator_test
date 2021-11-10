@@ -10,4 +10,5 @@ class MovieCertification {
   );
 
   final Certifications certifications;
+  factory MovieCertification.fromJson(Map<String, dynamic> json) => _$MovieCertificationFromJson(json);
 }

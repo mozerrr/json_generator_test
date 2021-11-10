@@ -15,4 +15,5 @@ class AuthorDetails {
   final String username;
   final String avatarPath;
   final int rating;
+  factory AuthorDetails.fromJson(Map<String, dynamic> json) => _$AuthorDetailsFromJson(json);
 }

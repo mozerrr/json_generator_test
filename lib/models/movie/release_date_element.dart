@@ -17,6 +17,7 @@ class ReleaseDateElement {
   final DateTime releaseDate;
   final int type;
   final String note;
+  factory ReleaseDateElement.fromJson(Map<String, dynamic> json) => _$ReleaseDateElementFromJson(json);
 }
 
 enum Iso6391 { EMPTY, DE, FR }
